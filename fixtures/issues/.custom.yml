@@ -1,0 +1,4 @@
+custom-lint:
+  artifacts:
+    reports:
+      codequality: custom-gl-codequality.json

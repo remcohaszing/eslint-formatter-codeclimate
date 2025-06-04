@@ -1,0 +1,4 @@
+lint:
+  artifacts:
+    reports:
+      codequality: gl-codequality.json
