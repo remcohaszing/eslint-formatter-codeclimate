@@ -16,7 +16,10 @@
   "author": "Remco Haszing <remcohaszing@gmail.com>",
   "sideEffects": false,
   "type": "module",
-  "exports": "./lib/eslint-formatter-codeclimate.js",
+  "exports": {
+    "types": "./types/eslint-formatter-codeclimate.d.ts",
+    "default": "./lib/eslint-formatter-codeclimate.js"
+  },
   "files": [
     "lib",
     "types"
