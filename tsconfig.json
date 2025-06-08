@@ -1,5 +1,6 @@
 {
   "exclude": ["lib", "**/fatal.js"],
+  "references": [{ "path": "./tsconfig.build.json" }],
   "compilerOptions": {
     "checkJs": true,
     "lib": ["es2022"],
