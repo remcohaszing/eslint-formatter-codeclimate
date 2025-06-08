@@ -1,6 +1,6 @@
 {
   "name": "eslint-formatter-codeclimate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Format ESLint results as a Code Climate report",
   "keywords": [
     "codeclimate",
