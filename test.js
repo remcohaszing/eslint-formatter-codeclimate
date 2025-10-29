@@ -22,7 +22,7 @@ describe('toCodeClimate', () => {
         categories: ['Style'],
         check_name: '',
         description: 'Parsing error: Unexpected token',
-        fingerprint: 'cbf6619c6f5a4b997a6c4b9eab150ad2',
+        fingerprint: '3d67384197ac8bfd7dcb9d4d81eab675ecd459ed8bae5ec4e681a1bceef48788',
         location: {
           positions: { begin: { line: 2, column: 1 }, end: { line: 2, column: 1 } },
           path: 'fatal.js'
@@ -37,7 +37,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `debugger`\n\n[no-debugger](https://eslint.org/docs/latest/rules/no-debugger)'
         },
         description: "Unexpected 'debugger' statement.",
-        fingerprint: '3669b857c8f6f91c9abb11871eb81ad1',
+        fingerprint: 'daff1f5f24794988561d3c2df5e0242800e6a7d8874bffaf612ada36fe6490de',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 9 } },
           path: 'fixture.js'
@@ -52,7 +52,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `console`\n\n[no-console](https://eslint.org/docs/latest/rules/no-console)'
         },
         description: 'Unexpected console statement.',
-        fingerprint: 'ad51b34553a9ef5712d8cf58956dc994',
+        fingerprint: 'd2ea3e82aa0f9fdfac7138e742d22645a7062163362d03358dcab94a1b71d8cf',
         location: {
           positions: { begin: { line: 2, column: 1 }, end: { line: 2, column: 12 } },
           path: 'fixture.js'
@@ -74,7 +74,7 @@ describe('toCodeClimate', () => {
         categories: ['Style'],
         check_name: '',
         description: 'Parsing error: Unexpected token',
-        fingerprint: 'cbf6619c6f5a4b997a6c4b9eab150ad2',
+        fingerprint: '3d67384197ac8bfd7dcb9d4d81eab675ecd459ed8bae5ec4e681a1bceef48788',
         location: {
           positions: { begin: { line: 2, column: 1 }, end: { line: 2, column: 1 } },
           path: 'fatal.js'
@@ -89,7 +89,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `debugger`\n\n[no-debugger](https://eslint.org/docs/latest/rules/no-debugger)'
         },
         description: "Unexpected 'debugger' statement.",
-        fingerprint: '3669b857c8f6f91c9abb11871eb81ad1',
+        fingerprint: 'daff1f5f24794988561d3c2df5e0242800e6a7d8874bffaf612ada36fe6490de',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 9 } },
           path: 'fixture.js'
@@ -104,7 +104,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `console`\n\n[no-console](https://eslint.org/docs/latest/rules/no-console)'
         },
         description: 'Unexpected console statement.',
-        fingerprint: 'ad51b34553a9ef5712d8cf58956dc994',
+        fingerprint: 'd2ea3e82aa0f9fdfac7138e742d22645a7062163362d03358dcab94a1b71d8cf',
         location: {
           positions: { begin: { line: 2, column: 1 }, end: { line: 2, column: 12 } },
           path: 'fixture.js'
@@ -129,7 +129,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `debugger`\n\n[no-debugger](https://eslint.org/docs/latest/rules/no-debugger)'
         },
         description: "Unexpected 'debugger' statement.",
-        fingerprint: '3669b857c8f6f91c9abb11871eb81ad1',
+        fingerprint: 'daff1f5f24794988561d3c2df5e0242800e6a7d8874bffaf612ada36fe6490de',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 9 } },
           path: 'fixture.js'
@@ -144,7 +144,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `debugger`\n\n[no-debugger](https://eslint.org/docs/latest/rules/no-debugger)'
         },
         description: "Unexpected 'debugger' statement.",
-        fingerprint: 'b5b0e1d51da3906f565fcbcfb5964346',
+        fingerprint: 'bdcd1dec9754c703ad4d607227ce800c7ff3848c224f73ab4aed81b1a150a472',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 9 } },
           path: 'fixture.js'
@@ -167,7 +167,7 @@ describe('toCodeClimate', () => {
         check_name: '',
         description:
           "Unused eslint-disable directive (no problems were reported from 'no-debugger').",
-        fingerprint: '0d88946a05ccd7175f2711bd7f8821ee',
+        fingerprint: 'a547cb8bca980b99e4c80050268b9423b9cc10277d6e84fbea47a1e421315287',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 1 } },
           path: 'fixture.js'
@@ -189,7 +189,7 @@ describe('toCodeClimate', () => {
         categories: ['Style'],
         check_name: 'plugin/missing-meta',
         description: 'Missing docs',
-        fingerprint: 'edf9d1d54d9c89dd1412ef11a7413b45',
+        fingerprint: '7db55200708454f50b03e92f4a1586c753f87b40f635997ee6b9a34b4aa76247',
         location: {
           positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
           path: 'eslint.config.js'
@@ -201,7 +201,7 @@ describe('toCodeClimate', () => {
         categories: ['Style'],
         check_name: 'plugin/empty-meta',
         description: 'Missing docs',
-        fingerprint: 'c67e7c9c1a844b65d30710d9d9278d40',
+        fingerprint: '7315c2bbb5f1c3ae82f633c47780a91b5f5394dab9bb648fd6a5b06f7d2f6824',
         location: {
           positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
           path: 'eslint.config.js'
@@ -213,7 +213,7 @@ describe('toCodeClimate', () => {
         categories: ['Style'],
         check_name: 'plugin/empty-docs',
         description: 'Empty docs',
-        fingerprint: '5ac7fe0fe3025663d064826d49e27164',
+        fingerprint: '6d435ef65c2398cf029a5081734a7677ee9a62aeb6701406a08eb2f8ee32d927',
         location: {
           positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
           path: 'eslint.config.js'
@@ -226,7 +226,7 @@ describe('toCodeClimate', () => {
         check_name: 'plugin/no-description',
         content: { body: '[plugin/no-description](https://example.com)' },
         description: 'No description',
-        fingerprint: '256e5d936b053b630b4993f7dd8bedd6',
+        fingerprint: 'c98c3855c9d302774f717192d0e7c36a418850367164d3f6322d3ef267ae62a4',
         location: {
           positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
           path: 'eslint.config.js'
@@ -239,7 +239,7 @@ describe('toCodeClimate', () => {
         check_name: 'plugin/no-url',
         content: { body: 'Description only' },
         description: 'No URL',
-        fingerprint: '5a89671407235a680cac73999a076960',
+        fingerprint: '65c7816ad5a8e04459afa119a7ecd98e64eef677fc1b4b5e27f1a28e52b59a73',
         location: {
           positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
           path: 'eslint.config.js'
@@ -269,7 +269,7 @@ describe('formatter', () => {
     "check_name": "",
     "description": "Parsing error: Unexpected token",
     "severity": "critical",
-    "fingerprint": "cbf6619c6f5a4b997a6c4b9eab150ad2",
+    "fingerprint": "3d67384197ac8bfd7dcb9d4d81eab675ecd459ed8bae5ec4e681a1bceef48788",
     "location": {
       "path": "fatal.js",
       "positions": {
@@ -293,7 +293,7 @@ describe('formatter', () => {
     "check_name": "no-debugger",
     "description": "Unexpected 'debugger' statement.",
     "severity": "minor",
-    "fingerprint": "3669b857c8f6f91c9abb11871eb81ad1",
+    "fingerprint": "daff1f5f24794988561d3c2df5e0242800e6a7d8874bffaf612ada36fe6490de",
     "location": {
       "path": "fixture.js",
       "positions": {
@@ -319,7 +319,7 @@ describe('formatter', () => {
     "check_name": "no-console",
     "description": "Unexpected console statement.",
     "severity": "major",
-    "fingerprint": "ad51b34553a9ef5712d8cf58956dc994",
+    "fingerprint": "d2ea3e82aa0f9fdfac7138e742d22645a7062163362d03358dcab94a1b71d8cf",
     "location": {
       "path": "fixture.js",
       "positions": {
