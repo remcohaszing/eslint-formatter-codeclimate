@@ -144,7 +144,7 @@ describe('toCodeClimate', () => {
           body: 'Disallow the use of `debugger`\n\n[no-debugger](https://eslint.org/docs/latest/rules/no-debugger)'
         },
         description: "Unexpected 'debugger' statement.",
-        fingerprint: 'bdcd1dec9754c703ad4d607227ce800c7ff3848c224f73ab4aed81b1a150a472',
+        fingerprint: '9df139c44bfb4ea6eb0cc4082588c23e76716823d2dd567673f90d1077c5d4a0',
         location: {
           positions: { begin: { line: 1, column: 1 }, end: { line: 1, column: 9 } },
           path: 'fixture.js'
