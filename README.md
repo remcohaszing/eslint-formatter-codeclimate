@@ -64,7 +64,7 @@ Convert ESLint messages to CodeClimate issues.
 
 #### Returns
 
-The ESLint messages in the form of a GitLab code quality report.
+The ESLint messages in the form of a CodeClimate report.
 
 ### `formatter()`
 
