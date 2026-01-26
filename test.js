@@ -1,7 +1,3 @@
-/**
- * @import { Issue } from 'codeclimate-types'
- */
-
 import assert from 'node:assert/strict'
 import { join } from 'node:path'
 import { describe, test } from 'node:test'
