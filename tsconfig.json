@@ -3,11 +3,12 @@
   "references": [{ "path": "./tsconfig.build.json" }],
   "compilerOptions": {
     "checkJs": true,
+    "exactOptionalPropertyTypes": true,
     "lib": ["es2022"],
     "module": "node16",
     "noEmit": true,
-    "strict": true,
     "target": "es2022",
-    "types": ["node"]
+    "types": ["node"],
+    "verbatimModuleSyntax": true
   }
 }
