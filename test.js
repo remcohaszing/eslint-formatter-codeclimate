@@ -187,7 +187,7 @@ describe('toCodeClimate', () => {
         description: 'Missing docs',
         fingerprint: '7db55200708454f50b03e92f4a1586c753f87b40f635997ee6b9a34b4aa76247',
         location: {
-          positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
+          positions: { begin: { line: 1, column: 1 }, end: { line: 76, column: 1 } },
           path: 'eslint.config.js'
         },
         severity: 'major',
@@ -199,7 +199,7 @@ describe('toCodeClimate', () => {
         description: 'Missing docs',
         fingerprint: '7315c2bbb5f1c3ae82f633c47780a91b5f5394dab9bb648fd6a5b06f7d2f6824',
         location: {
-          positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
+          positions: { begin: { line: 1, column: 1 }, end: { line: 76, column: 1 } },
           path: 'eslint.config.js'
         },
         severity: 'major',
@@ -211,7 +211,7 @@ describe('toCodeClimate', () => {
         description: 'Empty docs',
         fingerprint: '6d435ef65c2398cf029a5081734a7677ee9a62aeb6701406a08eb2f8ee32d927',
         location: {
-          positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
+          positions: { begin: { line: 1, column: 1 }, end: { line: 76, column: 1 } },
           path: 'eslint.config.js'
         },
         severity: 'major',
@@ -224,7 +224,7 @@ describe('toCodeClimate', () => {
         description: 'No description',
         fingerprint: 'c98c3855c9d302774f717192d0e7c36a418850367164d3f6322d3ef267ae62a4',
         location: {
-          positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
+          positions: { begin: { line: 1, column: 1 }, end: { line: 76, column: 1 } },
           path: 'eslint.config.js'
         },
         severity: 'major',
@@ -237,7 +237,7 @@ describe('toCodeClimate', () => {
         description: 'No URL',
         fingerprint: '65c7816ad5a8e04459afa119a7ecd98e64eef677fc1b4b5e27f1a28e52b59a73',
         location: {
-          positions: { begin: { line: 8, column: 1 }, end: { line: 75, column: 2 } },
+          positions: { begin: { line: 1, column: 1 }, end: { line: 76, column: 1 } },
           path: 'eslint.config.js'
         },
         severity: 'major',
